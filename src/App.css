@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.Container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 66px;
+  margin-top:50px;
+}
+
+.ToDoHeader{
+  display: flex;
+  align-items: center;
+}
+
+.Logo{
+ font-size: 32px;
+ font-weight: 400;
+}
+
+.addTask{
+  width:128px;
+  height: 32px;
+  background: #282c34;
+  border-radius: 8px;
+  color:white;
+  margin-left:28px;
+  margin-top:3px;
+}
+
+.TableHeader{
+  width:90%;
+  display: flex;
+  margin-top: 20px;
+  background-color: black;
+  color:white;
+}
+
+.column {
+
+}

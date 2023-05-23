@@ -1,0 +1,59 @@
+.todoDiv{
+    display: flex;
+    height: 30px;
+    border-bottom: 1px solid;
+    border-bottom-color: lightgrey;
+    margin-top: 7px;
+    width:90%;
+}
+
+.divTitle{
+ margin-left:26px;
+}
+.statusDiv{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    border: 1px solid #A1A0A0;
+}
+
+.statusDivCompleted{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    border: 1px solid #A1A0A0;
+    background-color: #00D2AA;
+}
+
+.divPriorityLow{
+    height: 25px;
+    border: 1px solid #A1A0A0;
+    border-radius:20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: #00D2BB;
+    background: #E0FDEF;
+}
+
+.divPriorityMedium{
+    height: 25px;
+    border: 1px solid #A1A0A0;
+    border-radius:20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: #FFA756;
+    background: #FFF4CC;
+}
+
+.divPriorityHight{
+    height: 25px;
+    border: 1px solid #A1A0A0;
+    border-radius:20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color:#FD626A;
+    background-color: #FFE3E3;
+}
